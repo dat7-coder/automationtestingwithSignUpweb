@@ -2,7 +2,7 @@ from xlrd import open_workbook
 
 class readDatatest:
     def dataTestSignUp(self):
-        data_test = open_workbook('../GFG/SignUpTest/dataset.xlsx')
+        data_test = open_workbook('../SignUpTest/dataset.xlsx')
         values = []
         for s in data_test.sheets():
             for r in range(1, s.nrows):
